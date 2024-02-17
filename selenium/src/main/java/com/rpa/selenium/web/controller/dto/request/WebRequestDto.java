@@ -1,5 +1,6 @@
 package com.rpa.selenium.web.controller.dto.request;
 
+import com.rpa.selenium.web.controller.dto.request.act.WebCommand;
 import lombok.AllArgsConstructor;
 import lombok.Builder;
 import lombok.Getter;

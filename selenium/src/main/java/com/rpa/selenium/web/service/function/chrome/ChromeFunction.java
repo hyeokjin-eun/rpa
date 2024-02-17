@@ -1,7 +1,7 @@
 package com.rpa.selenium.web.service.function.chrome;
 
 import com.rpa.selenium.selenium.Selenium;
-import com.rpa.selenium.web.controller.dto.request.WebCommand;
+import com.rpa.selenium.web.controller.dto.request.act.WebCommand;
 import com.rpa.selenium.web.enums.FunctionType;
 
 import java.util.List;

@@ -2,7 +2,7 @@ package com.rpa.selenium.web.service.function.facebook;
 
 import com.rpa.selenium.selenium.Selenium;
 import com.rpa.selenium.selenium.WebDriver;
-import com.rpa.selenium.web.controller.dto.request.WebCommand;
+import com.rpa.selenium.web.controller.dto.request.act.WebCommand;
 import com.rpa.selenium.web.enums.FunctionType;
 import com.rpa.selenium.web.exception.WebCommandException;
 import org.springframework.stereotype.Service;

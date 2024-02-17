@@ -15,8 +15,9 @@ public class DefaultWebDriver implements WebDriver{
 
     public DefaultWebDriver(String url) {
         ChromeOptions chromeOptions = new ChromeOptions();
+        chromeOptions.addArguments("--remote-allow-origins=*","ignore-certificate-errors");
         chromeOptions.setPageLoadStrategy(PageLoadStrategy.NORMAL);
-        this.chromeDriver = new ChromeDriver();
+        this.chromeDriver = new ChromeDriver(chromeOptions);
         this.get(url);
     }
 
